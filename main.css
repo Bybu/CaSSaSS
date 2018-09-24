@@ -1,0 +1,29 @@
+.top-area{
+  height: 100vmin;
+  background: #70bdf4;
+  background: -moz-radial-gradient(center, ellipse cover, #70bdf4 0%, #63b6f2 42%, #3fa9f5 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #70bdf4 0%, #63b6f2 42%, #3fa9f5 100%);
+  background: radial-gradient(ellipse at center, #70bdf4 0%, #63b6f2 42%, #3fa9f5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#70bdf4', endColorstr='#3fa9f5',GradientType=1 );
+}
+.top-area .header .logo img{width: 220px;}
+.top-area .header .nav-menu{text-align: right;}
+.top-area .header .nav-menu li{list-style: none;display: inline;margin-left: 1em;}
+.top-area .header .nav-menu svg{color: #fff;font-size: 2.3em;}
+/* hero-area */
+.hero-area{text-align: center;margin-top: 10vh;}
+.hero-area img{width: 150px;}
+.hero-area p{color: #fff;margin-bottom: 2em;margin-top: 2em;font-size: 1.3em;}
+.hero-area a{
+  font-size: 1.3em;background: #fff;border-radius: 6px;padding: 15px 32px;
+  color: #63b6f2;
+}
+.hero-area a:hover{color: #63b6f2;}
+
+@media (min-width: 320px) and (max-width: 479px){
+  .top-area{height: 70vmin;}
+  .header .logo{text-align: center;}
+  .top-area .header .nav-menu{text-align: center;}
+  .top-area .header .nav-menu li{list-style: none;display: inline;margin-left: 1em;}
+  .top-area .header .nav-menu svg{color: #fff;font-size: 1.8em;}
+}
